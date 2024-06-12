@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerReLog{
+    height: 600px;
+}
+
+.logout:hover{
+    background-color: orangered;
+}
