@@ -9,3 +9,40 @@
 .logout:hover{
     background-color: orangered;
 }
+#spanFilms{
+    position: absolute;
+    left: 15%;
+    margin-bottom: 100px;
+    transform: translateX(-50%);
+    background-color: black;
+    color: aliceblue;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+#spanFilms::before{
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+.films{
+    position: relative;
+    cursor: pointer;
+    border-bottom: 2px dotted;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: blue;
+}
+.films:hover{
+    /* opacity: 1;
+    visibility: visible; */
+    background-color: orange;
+}

@@ -40,20 +40,6 @@ export default function Usuarios({usuarios}){
         direction: 'ascending'
     })
 
-    // const ordenar =()=>{
-    //     setOrden((ordenActual)=>{
-    //         if(ordenActual.ascendente===true){
-    //             return{
-    //                 ascendente: !ordenActual.ascendente
-    //             }
-    //         }else{
-    //             return{
-    //                 ascendente: true
-    //             }
-    //         }
-    //     })
-    // }
-
     const sortedData = [...usuarios].sort((a, b) => {
         if (a[sortConfig.key] < b[sortConfig.key]) {
             return sortConfig.direction === 'ascending' ? -1 : 1;
@@ -63,27 +49,6 @@ export default function Usuarios({usuarios}){
         }
         return 0;
     });
-
-    // const usuariosOrdenados = [...usuarios].sort((a,b)=>{
-    //     const valorA = a[usuarios.name];
-    //     const valorB = b[usuarios.name];
-        
-    //     if(valorA < valorB){
-    //         return orden.ascendente? -1:1
-    //     }
-    //     if(valorA > valorB){
-    //         return orden.ascendente? 1:-1
-    //     }
-    //     return 0
-
-    // })
-
-    // const getClassNamesFor = (name) => {
-    //     if (!sortConfig) {
-    //         return;
-    //     }
-    //     return sortConfig.key === name ? sortConfig.direction : undefined;
-    // };
 
     const requestSort = (key) => {
         let direction = 'ascending';
@@ -101,52 +66,30 @@ export default function Usuarios({usuarios}){
             </div>) }
         <h1 className=" text-center text-xl text-black">Listado de usuarios</h1>
         <div className="flex flex-row items-center justify-center my-5">
-        {/* <a className="btn glass bg-slate-500 mx-5 btn-sm" href="/usuario/create">Nuevo Usuario</a> */}
         <button onClick={handleNuevoUsuario} className='btn btn-sm mx-5 bg-slate-500 glass'>
             Nuevo Usuario
         </button>
            
         </div>
-
-        {/* <div className='flex flex-col items-center justify-center h-full p-5'>
-        <div className='flex flex-row'>
-
-
-        </div>
-
-        </div> */}
        
         <div className="overflow-x-auto containerReLog">
             <table className="table table-pin-rows table-pin-cols table-md">
                 <thead>
                     <tr>
                         <th> 
-                        {/* className={getClassNamesFor('id')} */}
                             <button onClick={() => requestSort('id')}>
                                 Id
                                 {
-                                    // (sortConfig.key==='id' || sortConfig.key==='') &&
-                                    (
-                                        sortConfig.key==='id' ?
-                                    sortConfig.direction==='ascending'? ' ↓':' ↑':'↑ ↓')
+                                    (sortConfig.key==='id' ? sortConfig.direction==='ascending'? ' ↓':' ↑':'↑ ↓')
                                 }
                             </button>
                         </th>
                         <th>
-                        {/* className={getClassNamesFor('name')} */}
                             <button onClick={() => requestSort('name')}>
                                 Nombre
                                 {
-                                    //{sortConfig.key===campo &&(   orden.ascendente? ' ▲': ' ▼')}
-                                    // (sortConfig.key==='name' || sortConfig.key==='') &&
-                                    (
-                                        sortConfig.key==='name' ?
-                                    sortConfig.direction==='ascending'?  ' ↓':' ↑':'↑ ↓')
-                                    // (sortConfig.key==='id' || sortConfig.key===''? ' ▲':' ▲')
-                                 }
-                                 {/* { */}
-                                     {/* (sortConfig.key==='id' || sortConfig.key===''? ' ▲':' ▲')
-                                 } */}
+                                    (sortConfig.key==='name' ? sortConfig.direction==='ascending'?  ' ↓':' ↑':'↑ ↓')
+                                }
                             </button>
                         </th>
                         <th>Email</th>
@@ -159,44 +102,23 @@ export default function Usuarios({usuarios}){
                             <td>{fila.name}</td>
                             <td>{fila.email}</td>
                             <td>
-                                {/* <form id="borrar{{$usuario->id}}" onSubmit="event.preventDefault()" action="/usuario/{{$usuario->id}}" method="POST"> */}
-                                    <button onClick={() => handleDelete(fila.id)}>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6 text-red-700">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-                                        </svg>
-                                    </button>
-                                {/* </form> */}
+                                <button onClick={() => handleDelete(fila.id)}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6 text-red-700">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                                    </svg>
+                                </button>
                             </td>
                             <td>
-                                {/* <a href="/usuario/edit/{{$usuario->id}}"> */}
-                                    <button onClick={() => handleEdit(fila.id)}>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6 text-blue-600">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
-                                        </svg> 
-                                    </button>
-                                {/* </a>                       */}
+                                <button onClick={() => handleEdit(fila.id)}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6 text-blue-600">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+                                    </svg> 
+                                </button>
                             </td>
                         </tr>
                     ))}
                 </tbody>
             </table>
         </div>
-        {/* <script>
-        function confirmDelete(id){
-            swal({
-                title:"Seguro que quiere eliminar al usuario con id: " + id,
-                text:"Esta acción es irreversible",
-                icon:"warning",
-                buttons:true
-            })
-            .then((resultado)=>{
-                if(resultado){
-                    document.getElementById('borrar'+id).submit();
-                }
-            });
-        }
-    </script> */}
     </LayoutRoot>
     )}
-
-    
