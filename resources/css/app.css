@@ -46,3 +46,7 @@
     visibility: visible; */
     background-color: orange;
 }
+
+.pagination > button:focus{
+    background-color: darkgray;
+}
