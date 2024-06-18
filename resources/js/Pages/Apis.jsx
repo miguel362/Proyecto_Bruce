@@ -1,7 +1,7 @@
 import LayoutHome from '@/Layouts/LayoutHome';
 import Films from './Films';
 
-export default function Awards() {
+export default function Apis() {
 
     // const getPelis = () => {
     //     const url_base = `http://localhost:8000/getFilms`;

@@ -13,7 +13,7 @@ export default function NavLayoutHome() {
             onMouseLeave={()=> setIsVisible(false)}>
                 {children}
                 <br></br>
-                {isVisible && <div className="tooltip">{text}</div>}
+                {isVisible && <div className="tooltip text-xs">{text}</div>}
             </div>
         )
     }
@@ -30,13 +30,13 @@ export default function NavLayoutHome() {
                 )}
                 {!user && (
                     <>
-                        <Tooltip text="Regístrese o inicie sesión">
+                        <Tooltip text="Registro/inicio sesión">
                             <button className="btn btn-primary btn-sm" disabled>Películas</button>
                         </Tooltip>
-                        <Tooltip text="Regístrese o inicie sesión">
+                        <Tooltip text="Registro/inicio sesión">
                             <button className="btn btn-primary btn-sm" disabled>Otros</button>
                         </Tooltip>
-                        <Tooltip text="Regístrese o inicie sesión">
+                        <Tooltip text="Registro/inicio sesión">
                             <button className="btn btn-primary btn-sm" disabled>Premios</button>
                         </Tooltip>
                     </>

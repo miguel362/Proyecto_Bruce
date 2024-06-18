@@ -50,3 +50,11 @@
 .pagination > button:focus{
     background-color: darkgray;
 }
+
+div.oculto{
+    display: none;
+}
+
+div.visible{
+    display: block;
+}

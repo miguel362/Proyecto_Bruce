@@ -7,7 +7,7 @@ export default function NavLayoutNotHome(){
             <a class="btn btn-primary btn-sm" href="/filmsRoot">Películas</a>
             <a class="btn btn-primary btn-sm" href="/othersRoot">Otros</a>
             <a class="btn btn-primary btn-sm" href="/awardsRoot">Premios</a>
-            <Link class="btn btn-primary btn-sm" href="/usuarios">Usuarios</Link>
+            <Link class="btn btn-neutral btn-sm" href="/usuarios">Usuarios</Link>
         </nav>
     )
 }
