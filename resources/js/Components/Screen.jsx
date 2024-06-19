@@ -46,8 +46,9 @@ const Screen = () => {
     const handleChange = (event) => {
       setBuscador(event.target.value);
     };
-   const _peliculas = buscador === ""
-  //  setMovies = buscador === ""
+
+
+  const _peliculas = buscador === ""
       ? movies
       : movies.filter(peli =>
         peli.title.toLowerCase().includes(buscador.toLowerCase().trim()) ||

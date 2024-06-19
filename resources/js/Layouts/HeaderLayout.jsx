@@ -4,7 +4,9 @@ import { Inertia } from "@inertiajs/inertia";
 
 export default function HeaderLayout() {
     const user = usePage().props.auth.user;
-    // console.log('Valor de usuario' + user);
+    const asset = (path) => {
+        return `/images/${path}`;
+    }
 
     function handleLogout() {
         Inertia.post("/logout");
@@ -12,13 +14,9 @@ export default function HeaderLayout() {
 
     return (
         <header className="h-25v bg-header flex flex-row justify-between items-center p-8">
-            {/* <img className="max-h-full" src="/images/bruce.jpg" alt="Bruce" title="Bruce"/> */}
-            {/* <img className="max-h-full" src="/images/portada.png" alt="Bruce" title="Bruce" />
-            <h1 className=" text-6xl text-white">Nuestro amigo Bruce</h1> */}
-
             {!user && (
                 <>
-                    <img className="max-h-full rounded-full border-2" src="/images/bruce.jpg" alt="Bruce" title="Bruce" />
+                    <img className="max-h-full rounded-full border-2" src={asset('bruce.jpg')} alt="Bruce" title="Bruce" />
                     <h1 className=" text-6xl text-white">Nuestro amigo Bruce</h1>
                     <div>
                         <a href="login" className=" btn btn-primary m-2">Acceder</a>

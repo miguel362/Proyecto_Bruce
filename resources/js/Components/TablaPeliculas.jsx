@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
@@ -15,6 +15,10 @@ const TablaPeliculas = ({ peliculas }) => {
     key: '',
     direction: 'ascending'
   })
+
+  useEffect(()=>{
+    setCurrentPage(1);
+  }, [peliculas])
 
   const sortedData = [...currentMovies].sort((a, b) => {
     if (a[sortConfig.key] < b[sortConfig.key]) {
