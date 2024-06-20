@@ -19,8 +19,8 @@ export default function HeaderLayout() {
                     <img className="max-h-full rounded-full border-2" src="storage/images/bruce.jpg" alt="Bruce" title="Bruce" />
                     <h1 className=" text-6xl text-white">Nuestro amigo Bruce</h1>
                     <div>
-                        <a href="login" className=" btn btn-primary m-2">Acceder</a>
-                        <a href="register" className=" btn btn-primary">Registrarme</a>
+                        <a href="/login" className=" btn btn-primary m-2">Acceder</a>
+                        <a href="/register" className=" btn btn-primary">Registrarme</a>
                     </div>
                 </>
             )}
