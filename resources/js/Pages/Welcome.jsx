@@ -79,7 +79,7 @@ export default function Welcome() {
                     <div className='w-3/4 my-0 mx-auto'>
                         <p className="my-2"><strong>Walter Bruce Willis</strong> (Idar-Oberstein, Alemania Occidental; 19 de marzo de 1955) es un <strong>actor retirado</strong>, <strong>productor</strong> y <strong>músico</strong> estadounidense, cuya trayectoria comenzó en la <strong>industria televisiva</strong> durante los años 1980. Ha interpretado roles <strong>cómicos</strong>, <strong>dramáticos</strong> y de <strong>acción</strong>. Es conocido por su interpretación del oficial <strong>John McClane</strong> en la saga <strong>La jungla de cristal</strong>, que obtuvo buenas críticas y una <strong>recaudación considerable</strong> a partir del estreno de la primera cinta en 1988.​ Asimismo, ha aparecido en más de <strong>sesenta películas</strong>, entre las que se incluyen éxitos de taquilla como <strong>Pulp Fiction</strong>, <strong>Sin City</strong>, <strong>Doce monos</strong>, <strong>El quinto elemento</strong>, <strong>Armageddon</strong>, <strong>El sexto sentido</strong>, <strong>El protegido</strong>, <strong>Glass</strong>, <strong>Looper</strong>, <strong>Lucky Number Slevin</strong> o <strong>The Expendables</strong>.</p>
                         <p className="my-2">Las películas en las que ha aparecido Willis han logrado sumar <strong>7500 millones de dólares</strong> en las taquillas de todo el mundo, por lo que se le considera como uno de los actores más <strong>rentables</strong> en un rol estelar o secundario. &ZeroWidthSpace;Por sus interpretaciones, ha sido acreedor de varios <strong>premios</strong>, entre ellos <strong>dos premios Emmy</strong>, un <strong>Globo de Oro</strong> y <strong>cuatro Saturn</strong>.</p>
-                        <img className="my-0 mx-auto" src="/images/biografia.png" alt="Willis" title="Willis" />
+                        <img className="my-0 mx-auto" src="storage/images/biografia.png" alt="Willis" title="Willis" />
                         <p className="my-2">En cuanto a su vida privada, se casó con la actriz <strong>Demi Moore</strong>, con quien tuvo <strong>tres hijas</strong> antes de su divorcio en 2000, después de <strong>trece años de matrimonio</strong>. Tiempo después contrajo matrimonio con la modelo <strong>Emma Heming</strong>.​</p>
                         <p className="my-2">En marzo de <strong>2022</strong> su familia anunció que se retiraría de la actuación tras haber sido diagnosticado con <strong>afasia</strong>, un trastorno de lenguaje que afecta a la capacidad de <strong>comunicación</strong> de una persona.&ZeroWidthSpace; Sin embargo, en febrero de <strong>2023</strong> informaron que su <strong>condición médica</strong> había avanzado y que disponían de un diagnóstico más específico: <strong>demencia frontotemporal</strong>, conocida como <strong>FTD</strong>.</p>
 
@@ -114,7 +114,7 @@ export default function Welcome() {
                             <p className="my-2">En 1987, lanzó su carrera musical con el álbum <strong>"The Return of Bruno"</strong>, que incluyó el éxito <strong>"Respect Yourself"</strong>. Aunque sus siguientes grabaciones no fueron tan exitosas, lanzó un segundo álbum en 1989. Willis ha seguido involucrado en la <strong>música</strong>, presentándose ocasionalmente en eventos como las inauguraciones de <strong>Planet Hollywood</strong>.</p>
                         </div>
 
-                        <img className="my-0 mx-auto" src="/images/willis_80.jpg" alt="willis" title="willis y Cybill Lynne Shepherd" />
+                        <img className="my-0 mx-auto" src="storage/images/willis_80.jpg" alt="willis" title="willis y Cybill Lynne Shepherd" />
 
 
                         <h4 className="mb-5 text-xl mt-7"><b>1990-2000</b></h4>
@@ -130,7 +130,7 @@ export default function Welcome() {
 
                             <p className="my-2">Entre 1999 y 2000, Willis fue el portavoz de la compañía de <strong>gafas de sol Police</strong> y apareció en anuncios publicitarios.</p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/willis_pulp_fiction.jpg" alt="Bruce willis en pulp fiction" title="Bruce willis pulp fiction" />
+                        <img className="my-0 mx-auto" src="storage/images/willis_pulp_fiction.jpg" alt="Bruce willis en pulp fiction" title="Bruce willis pulp fiction" />
 
 
                         <h4 className="mb-5 text-xl mt-8"><b>2000-2010</b></h4>
@@ -143,12 +143,12 @@ export default function Welcome() {
 
                             <p className='my-2'>En <strong>2010</strong>, protagonizó <strong>"Cop Out"</strong> y apareció en el video musical de <strong>"Stylo"</strong> de <strong>Gorillaz</strong>, que rompió récords en <strong>YouTube</strong>. También tuvo una breve pero esperada aparición en <strong>"The Expendables"</strong> junto a <strong>Sylvester Stallone</strong> y <strong>Arnold Schwarzenegger</strong>. Ese mismo año, protagonizó <strong>"Red"</strong>, basada en la miniserie de cómics homónima.</p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/friends.jpg" alt="Bruce willis y David Schwimmer en friends" title="Bruce willis y David Schwimmer en friends" />
+                        <img className="my-0 mx-auto" src="storage/images/friends.jpg" alt="Bruce willis y David Schwimmer en friends" title="Bruce willis y David Schwimmer en friends" />
 
 
                         <h4 className="mb-5 text-xl mt-8"><b>Posterior al 2010</b></h4>
                         <p className="my-2">Un proyecto que el actor tiene programado protagonizar es la adaptación cinematográfica del videojuego <strong>Kane &amp; Lynch: Dead Men</strong>. El <strong>5 de mayo de 2010</strong>, se confirmó la producción de <strong>Die Hard 5</strong>, y <strong>Willis</strong> ha sido considerado para interpretar una vez más al oficial <strong>John McClane</strong>.</p>
-                        <img className="my-0 mx-auto" src="/images/mercenarios.jpg" alt="Portada Los Mercenarios 2" title="Portada Los Mercenarios 2" />
+                        <img className="my-0 mx-auto" src="storage/images/mercenarios.jpg" alt="Portada Los Mercenarios 2" title="Portada Los Mercenarios 2" />
                         <p className="my-2">Para el <strong>2012</strong>, <strong>Willis</strong> participó en la continuación de <strong>The Expendables 2</strong>. Anteriormente, <strong>Stallone</strong> había expresado su interés en que <strong>Willis</strong> retome su personaje en la secuela pero en un papel más importante; <strong>Willis</strong> confirmó su participación en la película el <strong>6 de septiembre de 2011</strong>. La cinta fue la más taquillera de las tres, recaudando <strong>311 millones de dólares</strong>.</p>
 
 
@@ -161,7 +161,7 @@ export default function Welcome() {
                             <p className="my-2">Tras el divorcio, <strong>Willis</strong> tuvo relaciones con modelos como <strong>María Bravo Rosado</strong> y <strong>Emily Sandberg</strong>, y se comprometió con <strong>Brooke Burns</strong>, terminando en <strong>2004</strong>. El <strong>21 de marzo de 2009</strong>, <strong>Willis</strong> se casó con <strong>Emma Heming</strong> en las <strong>Islas Turcas y Caicos</strong>, repitiendo la ceremonia en <strong>Beverly Hills</strong> para legalizarla. Tuvieron dos hijas: <strong>Mabel Ray</strong> (nacida en <strong>2012</strong>) y <strong>Evelyn Penn</strong> (nacida en <strong>2014</strong>).</p>
                             <p className="my-2">A principios de <strong>2022</strong>, la familia de <strong>Willis</strong>, incluida <strong>Moore</strong>, anunció su retiro debido a un diagnóstico de <strong>afasia</strong>, un trastorno del habla. En <strong>febrero de 2023</strong>, informaron que su condición había progresado a <strong>demencia frontotemporal</strong>. En <strong>marzo de 2023</strong>, <strong>Willis</strong> y <strong>Heming</strong> renovaron sus votos matrimoniales.</p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/bruce_demmi.jpg" alt="Bruce willis y Demmi moore" title="Bruce willis y Demmi moore" />
+                        <img className="my-0 mx-auto" src="storage/images/bruce_demmi.jpg" alt="Bruce willis y Demmi moore" title="Bruce willis y Demmi moore" />
 
 
                         <h3 className="mb-5 text-xl mt-5"><b>Religión</b></h3>
@@ -172,11 +172,11 @@ export default function Welcome() {
                             </div>
                             <div className="cite mt-1"><strong>Bruce Willis</strong>​</div>
                         </blockquote>
-                        <img className="my-0 mx-auto" src="/images/iglesia.jpg" alt="Iglesia luterana" title="Iglesia luterana" />
+                        <img className="my-0 mx-auto" src="storage/images/iglesia.jpg" alt="Iglesia luterana" title="Iglesia luterana" />
 
                         <h3 className="mb-5 text-xl mt-5"><b>Intereses empresariales</b></h3>
                         <p className="my-2"><strong>Willis</strong> es arrendatario de un apartamento en la <strong>Torre Trump</strong> (en la ciudad de <strong>Nueva York</strong>), y otro en el complejo departamental <strong>Riverside South</strong> (conocido también como <strong>Trump Place</strong>), además de propietario de un local en <strong>Los Ángeles</strong>, una casa en <strong>Malibú (California)</strong>, un rancho en <strong>Montana</strong>, una casa playera en <strong>Parrot Cay</strong> (una pequeña isla radicada en el conjunto <strong>Turcas y Caicos</strong>) y numerosas propiedades en el centro turístico invernal <strong>Sun Valley (Idaho)</strong>. En <strong>1997</strong>, <strong>Willis</strong> cofundó la compañía teatral <strong>Company of Fools</strong>, una empresa sin ánimos de lucro radicada en <strong>Idaho</strong>.</p>
-                        <img className="my-0 mx-auto" src="/images/empresa.jpg" alt="Logo cheyenne enterprise" title="Logo Cheyenne enterprise" />
+                        <img className="my-0 mx-auto" src="storage/images/empresa.jpg" alt="Logo cheyenne enterprise" title="Logo Cheyenne enterprise" />
                         <p className="my-2">De igual forma, posee su propia compañía productora de filmes denominada <strong>Cheyenne Enterprises</strong>, fundada en <strong>2000</strong> junto a su socio <strong>Arnold Rifkin</strong>. De manera similar cofundó, en <strong>Los Ángeles</strong>, la productora <strong>Willis Brothers Films</strong> con su hermano <strong>David Willis</strong> y el empresario <strong>Stephen Eads</strong>. Es dueño de varios negocios pequeños en <strong>Hailey, Idaho</strong>, incluyendo <strong>The Mint Bar</strong> y <strong>The Liberty Theater</strong>, siendo cofundador de <strong>Planet Hollywood</strong> junto con los actores <strong>Arnold Schwarzenegger</strong> y <strong>Sylvester Stallone</strong>. En <strong>2009</strong> firmó un contrato para convertirse en el rostro internacional del vodka <strong>Sobieski</strong>, de la empresa <strong>Belvedere SA</strong>, a cambio de un <strong>3,3% de sus acciones</strong>.</p>
 
 
@@ -187,7 +187,7 @@ export default function Welcome() {
                         <p className="my-2">En <strong>2006</strong>, <strong>Willis</strong> sugirió que <strong>Estados Unidos</strong> debía invadir <strong>Colombia</strong> para acabar con el narcotráfico. Ha expresado su apoyo a mejores salarios para maestros y policías, pero critica el trato del gobierno hacia los nativos americanos. Es un firme defensor del derecho a poseer armas, argumentando que desarmar a los ciudadanos legales solo dejaría armas en manos de criminales. A pesar de ser republicano, <strong>Willis</strong> ha criticado la influencia de la derecha cristiana en el partido y el tamaño del gobierno, abogando por menos intervención y más responsabilidad fiscal.</p>
                         <p className="my-2"><strong>Willis</strong> expresó su descontento con las preguntas políticas en <strong>2006</strong>, declarando que se consideraba apolítico y no necesariamente republicano, sino a favor de un gobierno más pequeño y fiscalmente responsable. En <strong>agosto de 2006</strong>, su nombre apareció en un anuncio en <strong>Los Angeles Times</strong> condenando a <strong>Hamás</strong> y <strong>Hezbolá</strong> y apoyando a <strong>Israel</strong> durante la <strong>Guerra del Líbano</strong></p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/politica.jpg" alt="Bruce willis y George H. W. Bush" title="Bruce willis y George H. W. Bush" />
+                        <img className="my-0 mx-auto" src="storage/images/politica.jpg" alt="Bruce willis y George H. W. Bush" title="Bruce willis y George H. W. Bush" />
 
 
                         <h3 className="mb-5 text-xl mt-5"><b>Intereses militares</b></h3>
@@ -197,7 +197,7 @@ export default function Welcome() {
                         <p className="my-2">En <strong>2003</strong>, <strong>Willis</strong> visitó <strong>Irak</strong> como parte de un recorrido de la organización <strong>USO</strong>, donde cantó para las tropas con su banda <strong>The Accelerators</strong>. Aunque consideró unirse a la milicia para combatir en la segunda guerra de Irak, fue disuadido por su edad (<strong>48 años</strong> en ese momento). En <strong>junio de 2007</strong>, aclaró en la revista <strong>Vanity Fair</strong> que su oferta de <strong>un millón de dólares</strong> a cualquier no combatiente que brindara información útil sobre líderes terroristas como <strong>Osama bin Laden</strong>, <strong>Ayman al-Zawahiri</strong> o <strong>Abu Musab al-Zarqawi</strong> fue una declaración hipotética y no debía tomarse literalmente. <strong>Willis</strong> criticó a los medios por enfocarse en los aspectos negativos de la guerra, señalando que no se informaba lo suficiente sobre los esfuerzos de los soldados para ayudar a la población local.</p>
                         <p className="my-2">En <strong>2005</strong>, expresó su deseo de hacer una película en pro de la guerra que mostrara a los soldados estadounidenses como combatientes valientes que buscan la libertad y la democracia. Este proyecto se centraría en las experiencias del <strong>24° Regimiento de Infantería</strong> en <strong>Mosul</strong>, basándose en los escritos del bloguero <strong>Michael Yon</strong>, un exsoldado de las <strong>Boinas Verdes</strong>. Sin embargo, no se ha realizado ningún anuncio adicional sobre esta producción desde entonces.</p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/armada.jpg" alt="Fuerzas armadas estadounidenses" title="Fuerzas armadas estadounidenses" />
+                        <img className="my-0 mx-auto" src="storage/images/armada.jpg" alt="Fuerzas armadas estadounidenses" title="Fuerzas armadas estadounidenses" />
                     </div>
                 </main>
             </LayoutHome>
