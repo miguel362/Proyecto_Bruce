@@ -96,7 +96,7 @@ export default function Welcome() {
 
                             <p className="my-2">Para subsistir económicamente, trabajó en bares y restaurantes, obteniendo un empleo en el <strong>West Bank Café</strong>. En 1977, hizo su debut teatral en la producción <strong>off-Broadway</strong> (es decir, una obra llevada a cabo en Nueva York, pero independiente del concepto de Broadway) de <strong>Heaven and Earth</strong> y participó en más de <strong>cien obras teatrales</strong>, incluyendo "Fool for Love" de <strong>Sam Shepard</strong>. Además, apareció en anuncios comerciales de <strong>Levi's</strong>.</p>
                         </div>
-                        <img className="my-0 mx-auto" src="/images/nuevaJersey.jpg" alt="Nueva Jersey" title="Nueva Jersey" />
+                        <img className="my-0 mx-auto" src="storage/images/nuevaJersey.jpg" alt="Nueva Jersey" title="Nueva Jersey" />
 
 
                         <h3 className=" mb-5 text-xl mt-6"><b>Carrera</b></h3>
