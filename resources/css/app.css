@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.containerReLog{
+.containerReLog {
     height: 600px;
 }
 
-.logout:hover{
+.logout:hover {
     background-color: orangered;
 }
-#spanFilms{
+
+#spanFilms {
     position: absolute;
     left: 15%;
     margin-bottom: 100px;
@@ -23,7 +24,8 @@
     visibility: hidden;
     transition: opacity 0.5s ease;
 }
-#spanFilms::before{
+
+#spanFilms::before {
     content: "";
     position: absolute;
     left: 10%;
@@ -32,7 +34,8 @@
     border: 15px solid;
     border-color: #000 #0000 #0000 #0000;
 }
-.films{
+
+.films {
     position: relative;
     cursor: pointer;
     border-bottom: 2px dotted;
@@ -41,20 +44,83 @@
     font-weight: bold;
     background-color: blue;
 }
-.films:hover{
+
+.films:hover {
     /* opacity: 1;
     visibility: visible; */
     background-color: orange;
 }
 
-.pagination > button:focus{
+.pagination>button:focus {
     background-color: darkgray;
 }
 
-div.oculto{
+div.oculto {
     display: none;
 }
 
-div.visible{
+div.visible {
     display: block;
 }
+
+@media only screen and (max-width: 600px) {
+    header h1{
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+        font-size: 1.25rem !important;
+        line-height: 1.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #menuDesktop{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #usuarios{
+        display: grid !important;
+        /* font-size: 0.75rem !important;
+        line-height: 1rem !important;
+        padding: 0.25rem 0.5rem !important; */
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #menuBurguer{
+        display: none;
+    }
+}
+
+#menuBurguer > .dropdown > ul.menu{
+    z-index: 9;
+}
+
+.hamburger-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  nav.menu {
+    display: none;
+  }
+  
+  nav.menu.open {
+    display: block;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+
+  #mainUsers{
+    padding: 10px 5px;
+    min-height: 600px;
+  }
+
