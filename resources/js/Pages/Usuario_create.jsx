@@ -1,5 +1,4 @@
 import LayoutRoot from '@/Layouts/LayoutRoot';
-import { useEffect } from 'react';
 import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
@@ -95,7 +94,7 @@ export default function Usuario_create(){
                     </div>
 
                     <div className="flex items-center justify-center mt-4">
-                        <PrimaryButton onClick={() => handleSave} className="ms-4">
+                        <PrimaryButton onClick={handleSave} className="ms-4">
                             Guardar
                         </PrimaryButton>
                         <PrimaryButton onClick={handleCancel} className="ms-4">

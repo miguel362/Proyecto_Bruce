@@ -14,9 +14,10 @@ export default function HeaderLayout() {
 
     return (
         <header className="h-25v bg-header flex flex-row justify-between items-center p-8">
+            
             {!user && (
                 <>
-                    <img className="max-h-full rounded-full border-2" src="storage/images/bruce.jpg" alt="Bruce" title="Bruce" />
+                    <img className="max-h-full rounded-full border-2" src="/storage/images/bruce.jpg" alt="Bruce" title="Bruce" />
                     <h1 className=" text-6xl text-white">Nuestro amigo Bruce</h1>
                     <div>
                         <a href="/login" className=" btn btn-primary m-2">Acceder</a>
@@ -27,7 +28,7 @@ export default function HeaderLayout() {
 
             {user && (
                 <>
-                    <img className="max-h-full rounded-full border-2" src="storage/images/portada.png" alt="Bruce" title="Bruce" />
+                    <img className="max-h-full rounded-full border-2" src="/storage/images/portada.png" alt="Bruce" title="Bruce" />
                     <h1 className=" text-6xl text-white">Nuestro amigo Bruce</h1>
                     <div className=" h-full">
                         <h2 className=" text-white text-2xl mb-1">{user.name}</h2>
